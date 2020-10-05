@@ -1,1 +1,48 @@
 /* Put your style information here! */
+img {
+    width: 100%;
+    height: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.flex-item {
+    max-width: 600px;
+    max-block-size: 50%;
+    flex-grow: 2;
+    align-self: center;
+}
+
+.user-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.user-item {
+    max-width: 400px;
+    max-block-size: 50%;
+    flex-grow: 2;
+    align-self: flex-start;
+    margin-right: 50px;
+}
+.interview-sketch-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.interview-sketch {
+    max-width: 400px;
+    margin-right: 50px;
+}
+
+.empathy-item {
+    max-width: 600px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
