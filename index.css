@@ -1,48 +1,126 @@
 /* Put your style information here! */
 img {
     width: 100%;
+    border: 1px solid black;
     height: auto;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #330066;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    color: #330066;
+}
+
+h3 {
+    text-align: center;
+    color: #330066;
+}
+
+p {
+    font-family: 'Lora', serif;
+    color: #5867a3;
+}
+
+li {
+    font-family: 'Lora', serif;
+    color: #5867a3;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 4px solid #990066;
+}
+
+ul {
+    margin-bottom: 50px;
+}
+
+html {
+    background-color: rgba(153, 204, 255, 0.25);
 }
 
 .flex-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 
 .flex-item {
     max-width: 600px;
     max-block-size: 50%;
-    flex-grow: 2;
+}
+
+.interview-questions {
+    max-width: 600px;
     align-self: center;
 }
 
 .user-container {
     display: flex;
     flex-flow: row wrap;
-    align-items: flex-start;
+    justify-content: space-evenly;
 }
 
 .user-item {
     max-width: 400px;
     max-block-size: 50%;
-    flex-grow: 2;
     align-self: flex-start;
-    margin-right: 50px;
 }
+
 .interview-sketch-container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
+
 .interview-sketch {
     max-width: 400px;
-    margin-right: 50px;
+    align-self: auto;
+}
+
+.empathy-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .empathy-item {
     max-width: 600px;
     margin-bottom: 50px;
-    margin-right: 50px;
+    align-self: flex-start;
 }
+
+.brief {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.story-board {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.story-square {
+    max-width: 400px;
+    margin-bottom: 100px;
+}
+
+.story-square h3 {
+    text-align: left;
+}
+
 
